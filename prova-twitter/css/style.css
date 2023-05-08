@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat+Alternates:wght@400;700&family=Unbounded:wght@300&display=swap');
+
+*{
+
+    font-family: 'Unbounded', cursive;;
+}
+
+
+
+main{
+    display: flex;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+}
+
+
+.box-img{
+    display: flex;
+    gap: 3px;
+    padding-left: 4rem;
+}
+
+#img-cont1{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#img-cont2{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.conntl{
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-conteudo{
+    width: 600px;
+   
+}
+.box-info{
+    padding-top: 4rem;
+}
+.box-exp img{
+    position: relative;
+}
+.box-exp img{
+    position: absolute;
+    padding-left: 33rem;
+}
+
+
+.expl{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    
+}
+
+#logotw{
+    padding-top: .7rem;
+}
+
+.confi{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.box-exp{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 10px;
+   
+    
+    
+}
+.con{
+    border: solid rgb(190, 190, 190) 1px;
+    padding: 20px;
+        
+}
+
+.valaiacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+#logo{
+    border-radius: 50%;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.perfil-content{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+.nav-esq{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 250px;
+    position: fixed;
+    padding-right: 70rem;
+}
+
+   
+
+/* .nav-dir{
+    
+} */
+.novott{
+   
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    height: 320px;
+    width: 348px;
+    border: solid rgb(190, 190, 190) 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: fixed;
+    padding-left: 15px;
+}
+
+.inscreva-se{
+    text-align: center;
+    padding: 10px;
+    border: solid rgb(190, 190, 190) 1px;
+    margin-top: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.inscreva-semd{
+    text-align: center;
+    padding: 10px 25px;
+    border: solid rgb(190, 190, 190) 1px;
+    margin-top: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.inscreva-semd2{
+    text-align: center;
+    padding: 10px 25px;
+    border: solid rgb(190, 190, 190) 1px;
+    margin-top: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 6px;
+}
+
+
+.inscreva-se,.inscreva-semd, .inscreva-semd2:hover{
+    cursor: pointer;
+}
+
+.box-exp{
+    background-color: rgba(255, 255, 255, 0.472);
+    width: 600px;
+    height: 5rem;
+}
+
+
+
+.btns{
+    display: flex;
+}
+#btn-e {
+    height: 2rem;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 1px white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-i {
+    height: 2rem;
+    background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   justify-content: center;
+}
+
+
+footer{
+    width: 100vw;
+    background-color: #00acee;
+    margin-top: 585px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btns{
+    padding-left: 100px;
+    display: flex;
+    gap: 3rem;
+}
+
+#b1{
+    padding: 5px 10px;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#b1, #b2:hover{
+    cursor: pointer;
+}
+#b2{
+    padding: 5px 10px;
+   background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* modal */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* quando o modal for maior que a tela isso da para rolar */
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+ .modal-content{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+ }
+
+ .close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+ }
+ .close:hover, .close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ 
+ .ent-md{
+    font-size: 25px;
+ }
+
+ .inf-md{
+    padding: 20px 0px;
+ }
+
+
+ .imp-mod{
+    padding: 20px 0px;
+ }
+
+ .imp-mod input{
+    width: 16rem;
+    padding: 10px;
+ }
